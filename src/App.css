@@ -1,0 +1,165 @@
+/* body color */
+body{
+  background-color: #f6f6f6 !important;
+}
+/* / body color */
+
+/* title */
+.title-row{
+  margin-top: 50px;
+}
+/* / title */
+
+/* product count row */
+.product-count-row{
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 20px;
+}
+
+/* product count row count text */
+.product-count-row .count{
+  color: #a6a6a6;
+}
+/* / product count row count text */
+
+/* product count row dropdown */
+.product-count-row select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/* / product count row dropdown */
+
+/* / product count row */
+
+/* product item row */
+.product-row .product{
+  background-color: #fff;
+  height: auto;
+  text-align: center;
+  border: 1px solid #e2e2e2;
+}
+/* / product item row */
+
+/* product row product text */
+.product-row .product p{
+  padding: 0 0 0 10px;
+  margin: 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* product row product last text */
+.product-row .product p:last-child{
+  margin-bottom: 10px;
+}
+/* / product row product last text */
+
+/* product row product description text */
+.product-row .product p.description{
+  color: #bdbdbd;
+}
+/* product row product description text */
+
+/* product row product price text */
+.product-row .product p.price{
+  font-weight: 600;
+}
+/* product row product price text */
+
+/* / product row product text */
+
+/* product row product image */
+.product-row .product img{
+  max-width: 100%;
+  margin: 10px auto;
+  max-height: 200px;
+}
+/* / product row product image */
+
+/* product row horizontal line */
+.product-row hr{
+  margin: 0;
+}
+/* product row horizontal line */
+
+/* product item */
+.product-row .col-sm-6{
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+/* product item */
+
+/* pagination */
+.pagination{
+  float: right;
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  overflow-x: auto;
+}
+
+/* pagination items*/
+.pagination li{
+  cursor: pointer;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 3px;
+  padding: 0 10px;
+}
+
+.pagination .page-link{
+  background-color: transparent;
+  border: none; 
+  color: #000;
+}
+
+.pagination li:hover{
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+    box-shadow: none;
+    color: #000;
+}
+/* / pagination items*/
+
+/* / pagination next and previous text */
+.pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link{
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+  width: 140px;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 480px){
+  .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link{
+    width: auto;
+  }
+}
+
+.pagination .page-item:first-child:hover, .pagination .page-item:last-child:hover{
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.pagination .page-item:first-child a{
+  color: #c6c6c6;
+}
+
+.pagination .page-link:focus, .pagination .page-link:hover, .pagination .page-link:active{
+  background-color: #fff;
+  border-bottom: 3px solid #000;
+  box-shadow: none;
+  color: #000;
+
+}
+/* / pagination next and previous text */
+
+/* media query handler for next previous text */
+@media screen and (max-width: 480px){
+  .pagination .page-link span{
+    display: none;
+  }
+}
+/* media query handler for next previous text */
+
+/* / pagination */
